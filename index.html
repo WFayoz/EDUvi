@@ -1,42 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./scss/main.css">
-    <link rel="icon" href="./assets/images/logo.svg">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./scss/main.css" />
+    <link rel="icon" href="./assets/images/logo.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
     <title>EDUvi</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- header start -->
     <header class="header">
-        <div class="container">
+      <div class="container">
+        <div class="header__top">
+          <img
+            src="./assets/images/logo_Eduvi.png"
+            alt=""
+            width="115"
+            height="30"
+          />
+          <ul class="header__title">
+            <li>Shop</li>
+            <li>
+              <select name="Kindergarten" id="Kindergarten">
+                <option value="kinder">For Kindergarten</option>
+              </select>
+            </li>
+            <li>
+              <select name="School" id="School">
+                <option value="school">For High School</option>
+              </select>
+            </li>
+            <li>
+              <select name="College" id="College">
+                <option value="College">For College</option>
+              </select>
+            </li>
 
+            <li>
+              <select name="Courses" id="Courses">
+                <option value="Courses">Courses</option>
+              </select>
+            </li>
+          </ul>
+          <ul class="header__title">
+            <li>
+              Cart (0)
+              <img
+                src="./assets/images/sumkacha/shopping bag/24/Outline.svg"
+                alt="Outline"
+                width="30"
+                height="30"
+              />
+            </li>
+
+            <li>
+              My Account
+              <img
+                src="/assets/images/25/Outline.svg"
+                alt="Pirofil"
+                width="30"
+                height="30"
+              />
+            </li>
+          </ul>
         </div>
+        <div class="hero">
+          <div class="hero__left">
+            <button class="hero__btn">Never Stop Learning</button>
+            <h2 class="hero__title">
+              Grow up your skills by online courses with Eduvi
+            </h2>
+            <p class="hero__sub__title">
+              Eduvi is a Global training provider based across the UK that
+              specialises in accredited and bespoke training courses. We crush
+              the barriers togetting a degree.
+            </p>
+            <div class="hero__option">
+              <select class="hero__select">
+                <option>Kindergarten</option>
+              </select>
+              <h5 class="hero__class">Class/Course</h5>
+              <button class="hero__button">
+                <img
+                  src="./assets/images/Magnifier/24/Outline.svg"
+                  alt="Magnifier"
+                  width="24px"
+                  height="24px"
+                />
+                Search
+              </button>
+            </div>
+          </div>
+          <div class="hero__right">
+            <img
+              src="/assets/images/boy.png"
+              alt="boy"
+              width="width: 668px"
+              height="height: 699px"
+            />
+          </div>
+        </div>
+      </div>
     </header>
-
 
     <!-- main start -->
     <main class="main">
-        <div class="container">
-            <section class="classes"></section>
-            <section class="lessons"></section>
-            <section class="courses"></section>
-            <section class="teachers"></section>
-            <section class="subscribe"></section>
-        </div>
+      <div class="container">
+        <section class="classes"></section>
+        <section class="lessons"></section>
+        <section class="courses"></section>
+        <section class="teachers"></section>
+        <section class="subscribe"></section>
+      </div>
     </main>
-
 
     <!-- footer start -->
     <footer class="footer">
-        <div class="container">
-
-        </div>
+      <div class="container"></div>
     </footer>
-
-</body>
+  </body>
 </html>
