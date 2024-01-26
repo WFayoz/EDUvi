@@ -88,7 +88,9 @@ button {
   background: #F7F5FA;
 }
 
-/*Main-classes*/
+.classes {
+  font-family: "Metropolis";
+}
 .classes__title {
   color: #0A033C;
   text-align: center;
@@ -147,4 +149,4 @@ button {
   line-height: normal;
 }
 
-/*End-classes*//*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
