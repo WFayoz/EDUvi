@@ -1,0 +1,142 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    height: 120vh;
+
+    .footer__top-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;;
+        width: 1280px;
+    height: 420px;
+    border-radius: 20px;
+    background-color: #0A033C;
+
+   .footer__top-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 550px;
+    height: 260px;
+
+    .footer__top-text{
+        color: #FFF;
+        text-align: center;
+        font-size: 45px;
+        font-weight: 700;
+        
+    }
+    .footer__top-lorem{
+        color: rgba(255, 255, 255, 0.70);
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+
+    }
+    .footer__input{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 509px;
+        height: 60px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.20);
+        .input{
+            color: #FFF;
+            font-size: 16px;
+            font-weight: 500;
+            margin-left: 20px;
+            border: none;
+            background-color: transparent;
+
+        }
+        .footer__button{
+            width: 142px;
+            height: 60px;
+            border-radius: 0px 10px 10px 0px;
+            background: #9C4DF4;
+            border: none;
+
+            .footer__top-link{
+                color: #FFF;
+                text-align: right;
+                font-size: 16px;
+                font-weight: 500;
+
+
+        }
+   }
+        
+    }
+    }
+   
+}
+
+.footer__bottom-container{
+display: flex;
+align-items: start;
+justify-content: space-between;
+    width: 1300px;
+    height: 350px;
+
+    .footer__item{
+    width: auto;
+    height: auto;
+
+    .footer__icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    height: 60px;
+    padding: 16px 0;
+    }
+    .footer__eduvi{
+        color: #5D5A6F;
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 15px;
+
+    }
+    .footer__lorem{
+        color: #5D5A6F;
+        font-size: 16px;
+        font-weight: 400;
+        width: 170px;
+        margin-top: 20px;
+    }
+    .footer__text{
+        color: #0A033C;
+        font-size: 22px;
+        font-weight: 600;
+
+    }
+    .footer__title{
+    width: auto;
+    height: auto;
+
+    .footer__list{
+    width: auto;
+    }
+    .footer__link{
+    padding: 12px 0;
+    display: inline-block;
+    color: #5D5A6F;
+    font-weight: 400;
+    font-size: 16px;
+
+    }
+    .footer__link:hover{
+        color: #9C4DF4;
+        }
+
+    }
+    
+
+}
+}
+}
