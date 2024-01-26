@@ -150,146 +150,130 @@ button {
 
 main {
   background-color: #F7F5FA;
+.footer {
+  padding-top: 100px;
+  padding-bottom: 63px;
+  font-family: "Metropolis";
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background: #F7F5FA;
+  width: 100%;
 }
-main .lessons {
-  padding-top: 150px;
+.footer .footer__top-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  width: 100%;
+  height: 420px;
+  border-radius: 20px;
+  background-color: #0A033C;
 }
-main .lessons__h1 {
-  color: #0A033C;
-  font-family: "Metropolis";
+.footer .footer__top-container .footer__top-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 550px;
+  height: 260px;
+}
+.footer .footer__top-container .footer__top-title .footer__top-text {
+  color: #FFF;
   text-align: center;
   font-size: 45px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 55px; /* 122.222% */
 }
-main .lessons__p {
-  padding-top: 20px;
-  width: 700px;
-  color: #5D5A6F;
-  font-family: "Metropolis";
+.footer .footer__top-container .footer__top-title .footer__top-lorem {
+  color: rgba(255, 255, 255, 0.7);
   text-align: center;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 30px; /* 187.5% */
 }
-main .lessons__schools {
-  padding-top: 50px;
+.footer .footer__top-container .footer__top-title .footer__input {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 50px;
+  justify-content: space-between;
+  width: 509px;
+  height: 60px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.2);
 }
-main .lessons__schools--left {
-  color: #0A033C;
-  font-family: "Inter", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 20px;
-}
-main .lessons__schools--center {
-  padding: 20px 30px;
-  background: #FF6652;
-  border-radius: 10px;
-  border: #FF6652;
-  font-family: "Inter", sans-serif;
+.footer .footer__top-container .footer__top-title .footer__input .input {
   color: #FFF;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 20px;
+  margin-left: 20px;
+  border: none;
+  background-color: transparent;
 }
-main .lessons__schools--right {
-  color: #0A033C;
-  font-family: "Inter", sans-serif;
+.footer .footer__top-container .footer__top-title .footer__input .footer__button {
+  width: 142px;
+  height: 60px;
+  border-radius: 0px 10px 10px 0px;
+  background: #9C4DF4;
+  border: none;
+}
+.footer .footer__top-container .footer__top-title .footer__input .footer__button .footer__top-link {
+  color: #FFF;
+  text-align: right;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 20px;
 }
-main .lessons__boxes {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 40px;
-  padding-top: 45px;
-  padding-bottom: 60px;
+.footer .footer__bottom-container {
+  padding-top: 80px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  width: 100%;
+  height: 350px;
 }
-main .lessons__boxes--box {
+.footer .footer__bottom-container .footer__item {
+  width: auto;
+  height: auto;
+}
+.footer .footer__bottom-container .footer__item .footer__icon {
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  border: 1px solid #FFF;
-  background-color: #FFF;
-  border-radius: 15px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  justify-content: space-between;
+  width: 150px;
+  height: 60px;
+  padding: 16px 0;
 }
-main .lessons__boxes--box h1 {
-  padding-top: 20px;
+.footer .footer__bottom-container .footer__item .footer__eduvi {
+  color: #5D5A6F;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+.footer .footer__bottom-container .footer__item .footer__lorem {
+  color: #5D5A6F;
+  font-size: 16px;
+  font-weight: 400;
+  width: 170px;
+  margin-top: 20px;
+}
+.footer .footer__bottom-container .footer__item .footer__text {
   color: #0A033C;
-  text-align: center;
-  font-family: "Metropolis";
-  font-size: 25px;
-  font-style: normal;
+  font-size: 22px;
   font-weight: 600;
-  line-height: normal;
 }
-main .lessons__boxes--box p {
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 15px;
-  width: 260px;
+.footer .footer__bottom-container .footer__item .footer__title {
+  width: auto;
+  height: auto;
+}
+.footer .footer__bottom-container .footer__item .footer__title .footer__list {
+  width: auto;
+}
+.footer .footer__bottom-container .footer__item .footer__title .footer__link {
+  padding: 12px 0;
+  display: inline-block;
   color: #5D5A6F;
-  text-align: center;
-  font-family: "Metropolis";
-  font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 30px;
-  padding-bottom: 25px;
-}
-main .lessons__boxes--box button {
-  background-color: #FFF;
-  color: #9C4DF4;
-  border-radius: 5px;
-  text-align: center;
-  border: 1px solid #9C4DF4;
-  cursor: pointer;
-  font-family: "Inter", sans-serif;
-  padding: 12px 30px;
-}
-main .lessons__boxes--box button:hover {
-  background-color: #9C4DF4;
-  color: #FFF;
-  border: none;
-  transition: 0.3s;
-}
-main .lessons__button {
-  background-color: #FFF;
-  color: #9C4DF4;
-  border-radius: 5px;
-  text-align: center;
-  border: 1px solid #9C4DF4;
-  cursor: pointer;
-  font-family: "Inter", sans-serif;
-  padding: 20px 30px;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 20px;
 }
-main .lessons__button:hover {
-  background-color: #9C4DF4;
-  color: #FFF;
-  border: none;
-  transition: 0.3s;
+.footer .footer__bottom-container .footer__item .footer__title .footer__link:hover {
+  color: #9C4DF4;
 }
 
 /*# sourceMappingURL=main.css.map */
