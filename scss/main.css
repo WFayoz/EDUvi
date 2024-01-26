@@ -87,10 +87,114 @@ button {
   padding: 0 20px;
 }
 
-.classes {
+.header {
+  font-family: "Metropolis";
+  background-color: #F7F5FA;
+  padding-top: 30px;
+  overflow: hidden;
+}
+.header__top {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 120px;
+}
+.header__title {
+  display: flex;
+  gap: 30px;
+}
+.header__title select {
+  border: none;
+}
+.header .hero {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
   font-family: "Metropolis";
 }
-.classes__title {
+.header .hero__title {
+  color: #0A033C;
+  font-family: Metropolis;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 75px;
+}
+.header .hero__option {
+  width: fit-content;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+.header .hero__option .hero__class {
+  padding-left: 41px;
+  padding-right: 168px;
+}
+.header .hero__sub__title {
+  width: 607px;
+  padding-top: 15px;
+  color: #5D5A6F;
+  font-family: "Metropolis";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.header .hero__select {
+  border: none;
+}
+.header .hero__button {
+  gap: 5px;
+  background-color: #FFF;
+  color: #9C4DF4;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid #9C4DF4;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 30px;
+  text-align: center;
+  background: #9C4DF4;
+  color: white;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+.header .hero__button:hover {
+  background-color: #9C4DF4;
+  color: #FFF;
+  border: none;
+  transition: 0.3s;
+}
+.header .hero__btn {
+  width: 239px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #FFF;
+  color: #FF6652;
+  border: none;
+  font-family: Metropolis;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+main {
+  background-color: #F7F5FA;
+}
+main .classes {
+  font-family: "Metropolis";
+}
+main .classes__title {
   color: #0A033C;
   text-align: center;
   font-size: 45px;
@@ -98,7 +202,7 @@ button {
   line-height: 55px;
   padding: 150px 400px 20px 350px;
 }
-.classes__subtitle {
+main .classes__subtitle {
   color: #5D5A6F;
   text-align: center;
   font-size: 16px;
@@ -106,7 +210,7 @@ button {
   line-height: 30px;
   padding: 20px 262px 40px 338;
 }
-.classes__btn {
+main .classes__btn {
   border-radius: 10px;
   background: #9C4DF4;
   width: 162px;
@@ -120,17 +224,17 @@ button {
   font-weight: 500;
   line-height: 20px;
 }
-.classes__btn:hover {
+main .classes__btn:hover {
   background-color: #3f0580;
   transition: 0.3s;
 }
-.classes__cards {
+main .classes__cards {
   display: flex;
   justify-content: space-evenly;
   padding: 0 230px 80px 150px;
   gap: 30px;
 }
-.classes__cards .card {
+main .classes__cards .card {
   border-radius: 10px;
   background: #FFF;
   width: 300px;
@@ -138,18 +242,14 @@ button {
   display: flex;
   align-items: center;
 }
-.classes__cards .card__icon {
+main .classes__cards .card__icon {
   margin: 15px 15px;
 }
-.classes__cards .card__subtitle {
+main .classes__cards .card__subtitle {
   color: #0A033C;
   font-size: 25px;
   font-weight: 600;
   line-height: normal;
-}
-
-main {
-  background-color: #F7F5FA;
 }
 main .lessons {
   padding-top: 150px;

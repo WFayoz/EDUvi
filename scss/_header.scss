@@ -1,0 +1,104 @@
+.header {
+    font-family: 'Metropolis';
+    background-color: #F7F5FA;
+    padding-top: 30px;
+    overflow: hidden;
+    &__top {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-bottom: 120px;
+
+    }
+
+    &__title {
+        display: flex;
+        gap: 30px;
+
+        select {
+            border: none;
+        }
+    }
+
+    .hero {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        font-family: 'Metropolis';
+        &__title {
+            color: #0A033C;
+            font-family: Metropolis;
+            font-size: 65px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 75px;
+    
+        }
+    
+        &__option {
+            width: fit-content;
+            margin-top: 40px;
+            display: flex;
+            // justify-content: space-between;
+            align-items: center;
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 5px 10px;
+            .hero__class{
+                padding-left: 41px;
+                padding-right: 168px;
+            }
+        }
+    
+        &__sub__title {
+            width: 607px;
+            padding-top: 15px;
+            color: #5D5A6F;
+            font-family: 'Metropolis';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+    
+    
+        }
+    
+        &__select {
+            border: none;
+        }
+    
+    
+    
+        &__button {
+            gap: 5px;
+            @include buttons;
+            @include dFlex;
+            padding: 15px 30px;
+            text-align: center;
+            background: #9C4DF4;
+            color: white;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 20px;
+
+        }
+    
+        &__btn {
+            width: 239px;
+            height: 50px;
+            flex-shrink: 0;
+            border-radius: 10px;
+            background: #FFF;
+            color: #FF6652;
+            border: none;
+    
+            font-family: Metropolis;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+    
+    }
+}
