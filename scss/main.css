@@ -85,150 +85,66 @@ button {
   width: 100%;
   margin: 0 auto;
   padding: 0 20px;
+  background: #F7F5FA;
 }
 
-main {
-  background-color: #F7F5FA;
-}
-main .lessons {
-  padding-top: 150px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-main .lessons__h1 {
+/*Main-classes*/
+.classes__title {
   color: #0A033C;
-  font-family: "Metropolis";
   text-align: center;
   font-size: 45px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 55px; /* 122.222% */
+  line-height: 55px;
+  padding: 150px 400px 20px 350px;
 }
-main .lessons__p {
-  padding-top: 20px;
-  width: 700px;
+.classes__subtitle {
   color: #5D5A6F;
-  font-family: "Metropolis";
   text-align: center;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 30px; /* 187.5% */
+  line-height: 30px;
+  padding: 20px 262px 40px 338;
 }
-main .lessons__schools {
-  padding-top: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 50px;
-}
-main .lessons__schools--left {
-  color: #0A033C;
-  font-family: "Inter", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 20px;
-}
-main .lessons__schools--center {
-  padding: 20px 30px;
-  background: #FF6652;
+.classes__btn {
   border-radius: 10px;
-  border: #FF6652;
-  font-family: "Inter", sans-serif;
+  background: #9C4DF4;
+  width: 162px;
+  height: 60px;
+  border: none;
+  margin: 40px 600px 60px 530px;
   color: #FFF;
+  text-align: center;
+  font-family: Inter;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 20px;
 }
-main .lessons__schools--right {
-  color: #0A033C;
-  font-family: "Inter", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 20px;
+.classes__btn:hover {
+  background-color: #3f0580;
+  transition: 0.3s;
 }
-main .lessons__boxes {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 40px;
-  padding-top: 45px;
-  padding-bottom: 60px;
+.classes__cards {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 230px 80px 150px;
+  gap: 30px;
 }
-main .lessons__boxes--box {
+.classes__cards .card {
+  border-radius: 10px;
+  background: #FFF;
+  width: 300px;
+  height: 100px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  border: 1px solid #FFF;
-  background-color: #FFF;
-  border-radius: 15px;
-  padding-top: 30px;
-  padding-bottom: 30px;
 }
-main .lessons__boxes--box h1 {
-  padding-top: 20px;
+.classes__cards .card__icon {
+  margin: 15px 15px;
+}
+.classes__cards .card__subtitle {
   color: #0A033C;
-  text-align: center;
-  font-family: "Metropolis";
   font-size: 25px;
-  font-style: normal;
   font-weight: 600;
   line-height: normal;
 }
-main .lessons__boxes--box p {
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 15px;
-  width: 260px;
-  color: #5D5A6F;
-  text-align: center;
-  font-family: "Metropolis";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 30px;
-  padding-bottom: 25px;
-}
-main .lessons__boxes--box button {
-  background-color: #FFF;
-  color: #9C4DF4;
-  border-radius: 5px;
-  text-align: center;
-  border: 1px solid #9C4DF4;
-  cursor: pointer;
-  font-family: "Inter", sans-serif;
-  padding: 12px 30px;
-}
-main .lessons__boxes--box button:hover {
-  background-color: #9C4DF4;
-  color: #FFF;
-  border: none;
-  transition: 0.3s;
-}
-main .lessons__button {
-  background-color: #FFF;
-  color: #9C4DF4;
-  border-radius: 5px;
-  text-align: center;
-  border: 1px solid #9C4DF4;
-  cursor: pointer;
-  font-family: "Inter", sans-serif;
-  padding: 20px 30px;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 20px;
-}
-main .lessons__button:hover {
-  background-color: #9C4DF4;
-  color: #FFF;
-  border: none;
-  transition: 0.3s;
-}
 
-/*# sourceMappingURL=main.css.map */
+/*End-classes*//*# sourceMappingURL=main.css.map */
