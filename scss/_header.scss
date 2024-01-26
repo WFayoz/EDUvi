@@ -4,7 +4,7 @@ ul {
 }
 
 .header {
-
+    font-family: 'Metropolis';
     &__top {
         display: flex;
         justify-content: space-evenly;
@@ -28,7 +28,7 @@ ul {
 .hero {
     display: flex;
     justify-content: space-evenly;
-
+    font-family: 'Metropolis';
     &__title {
         color: #0A033C;
         font-family: Metropolis;
@@ -47,7 +47,6 @@ ul {
 
     &__sub__title {
         color: #5D5A6F;
-
         font-family: Metropolis;
         font-size: 16px;
         font-style: normal;
