@@ -1,0 +1,71 @@
+.classes{
+    font-family: 'Metropolis';
+&__title{
+    color: #0A033C;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+    padding: 150px 400px 20px 350px;
+}
+ 
+&__subtitle{
+    color: #5D5A6F;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+padding: 20px 262px 40px 338;
+
+    }
+    
+&__btn{
+    border-radius: 10px;
+    background: #9C4DF4;
+    width: 162px;
+    height: 60px;
+    border:none; 
+    margin: 40px 600px 60px 530px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+       
+    &:hover{
+        background-color: #3f0580;
+        transition: 0.3s;
+        }
+}
+
+
+&__cards{
+   
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 230px 80px 150px;
+    gap: 30px;
+   
+.card{
+    border-radius: 10px;
+    background: #FFF;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+       
+&__icon{
+    margin: 15px 15px;
+    }
+
+&__subtitle{
+    color: #0A033C;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: normal;
+        }
+   
+}
+}
+}
